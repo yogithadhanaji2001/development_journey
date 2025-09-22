@@ -1,0 +1,2 @@
+python is a powerful program language
+python is fun to learn

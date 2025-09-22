@@ -1,0 +1,8 @@
+Apple
+banana
+orange
+umbrella
+grapes
+ice
+dog
+elephant
