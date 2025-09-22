@@ -1,0 +1,13 @@
+/* :root{
+    --variable-name:value;
+} */
+
+:root{
+    --bg-purple:#ad6beb;
+
+}
+
+body{
+    background-color: var(--bg-purple);
+    
+}

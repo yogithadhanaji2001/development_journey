@@ -1,0 +1,34 @@
+body{
+
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+
+/* media query
+    @media(width)
+*/
+.mobile-app{
+    display: none;
+    
+}
+@media (max-width:500px) {
+
+    body{
+
+        background-color: yellow;
+        color: brown;
+        text-align: center;
+        font-size: medium;
+        font-style: italic;
+    }
+    
+
+    .desk-top{
+        display: none;
+    }
+
+    .mobile-app{
+        display: block;
+    }
+}
+

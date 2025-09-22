@@ -1,0 +1,24 @@
+/* css basic selectors */
+
+/* tagname| className|id {
+property:value;
+property:value;
+} */
+
+
+h1{
+    color: blueviolet;
+
+}
+
+.prime{
+    color: navy;
+}
+
+.border-success{
+    border: 1px solid green;
+}
+
+#head{
+    color: green;
+}

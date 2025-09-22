@@ -1,0 +1,30 @@
+.card{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #00adad;
+    height: 300px;
+    width: 400px;
+    
+
+}
+
+
+.card-title{
+
+    color: #005b60 ;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* .card-text{
+
+    color:#005b60 ;
+    text-align: center;
+    text-transform: capitalize;
+
+} */
+
+.card>p{
+    text-align: center;
+}
+

@@ -1,0 +1,30 @@
+css
+====
+
+basic selector
+
+css units 
+---------
+
+=> absolute
+* px, cm, inc
+
+=>relative
+* vm,vh,rem,em,%
+
+box model
+_________
+
+margin, pading,content
+
+flex
+----
+
+1 direction  display:flex, justify content, align-item
+
+css position
+------------
+relative absolute, sticky, fixed, static(by default)
+
+shadow(x,y,shadow)
+icons

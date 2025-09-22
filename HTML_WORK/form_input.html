@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+</head>
+
+<body>
+
+    <!-- form & input -->
+    <form action="">
+
+        <h1>student signup form</h1>
+
+        <div>
+            <label for="rol">RollNo :</label>
+            <input type="text" id="rol">
+        </div>
+
+        <div>
+            <label for="fname">Student Name : </label>
+            <input type="text" placeholder="first name" id="fname">
+            -
+            <input type="text" placeholder="last name">
+        </div>
+
+        <div>
+            <label for="father">Father's Name : </label>
+            <input type="text" id="father">
+        </div>
+
+        <div>
+            <label for="date">Date of birth : </label>
+            <input type="date" id="date"> (DD--MM--YY)
+        </div>
+
+        <div>
+            <label for="mob">Mobile No : </label>
+            <select name="" id="">
+                <option value="+61">+61</option>
+                <option value="+91 ">+91</option>
+                <option value="+62">+62</option>
+                <option value="+98">+98</option>
+                <option value="+2">+2</option>
+                <option value="+231">+231</option>
+                <option value="+7">+7</option>
+            </select>
+            <input type="number" id="mob">
+        </div>
+
+        <div>
+            <label for="mail">Email Id : </label>
+            <input type="email" id="mail">
+        </div>
+
+        <div>
+            <label for="pword">Password : </label>
+            <input type="password" id="pword">
+        </div>
+
+        <div>
+            <label for="">Gender : </label>
+            <input type="radio" name="gender" value="male"> <label for="">Male</label>
+            <input type="radio" name="gender" value="female"> <label for="">Female</label>
+            <input type="radio" name="gender" value="other"> <label for="">Other</label>
+
+        </div>
+
+        <div>
+            <label for="">Department : </label>
+            <input type="checkbox" value="cs"> <label for="">CS</label>
+            <input type="checkbox" value="it"> <label for="">IT</label>
+            <input type="checkbox" value="ece"> <label for="">ECE</label>
+            <input type="checkbox" value="civil"> <label for="">CIVIL</label>
+
+        </div>
+
+        <!-- type : text, number, date, email, password, radio, checkbox, select(option), file-->
+
+        <div>
+            <label for="">Course : </label>
+            <select name="" id="">
+                <option value="">---select a course---</option>
+                <option value="react">React</option>
+                <option value="Mearn">Mearn</option>
+                <option value="testing">Testing</option>
+                <option value="Django">Django</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Student Photo : </label>
+            <input type="file" accept="image/*">
+        </div>
+
+        <div>
+            <label for="city">City : </label>
+            <input type="text" id="city">
+        </div>
+
+        <div>
+            <label for="address">Address : </label>
+            <textarea id="address" rows="10" cols="50"></textarea>
+        </div>
+
+        <div>
+            <label for="">class mode : </label>
+            <input type="radio" name="mode" value="online"> <label for="">online</label>
+            <input type="radio" name="mode" value="offline"> <label for="">offline</label>
+            <input type="radio" name="mode" value="hybrid"> <label for="">hybrid</label>
+        </div>
+
+        <button type="submit"> REGISTER</button>
+        <!-- <input type="submit" value="REGISTER"> -->
+
+        <!-- type: text, number date, email,password, checkbox, radio, file -->
+        <!-- select (child: option), textarea -->
+
+        
+    </form>
+
+    <nav>
+        
+    </nav>
+
+</body>
+
+</html>

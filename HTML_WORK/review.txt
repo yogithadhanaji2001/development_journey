@@ -1,0 +1,34 @@
+HTML
+
+TEXTFORMATTING=> [H1..H6, Strong, em,u,sup, sub,p]
+
+list=> [ol,li,ul]
+
+image=> [img scr alt]
+
+link=> [a href]
+
+table=> [tr, th, td]
+
+div=> [group]
+
+form=>[form]
+
+input=> [text,number,date,file(image),email,password,radio,checkbox]
+
+textarea=>rows,clos
+
+select=>option
+
+button
+
+a) inline element
+b) block element
+
+semantic tag 
+============
+
+nav
+main
+aside
+footer 

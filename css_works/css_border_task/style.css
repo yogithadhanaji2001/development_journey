@@ -1,0 +1,25 @@
+.border{
+    background-color: green;
+    border: 2px solid black;
+    color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.border-danger{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.border-dark{
+    color: wheat;
+    border: 6px double white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}   

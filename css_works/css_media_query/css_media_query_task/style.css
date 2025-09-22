@@ -1,0 +1,68 @@
+body{
+
+    background-color: yellowgreen;
+    color: aquamarine;
+}
+
+.mobile{
+    display: none;
+}
+
+.tab{
+    display: none;
+}
+
+
+@media (max-width:501px) {
+
+    .desk{
+        display: block;
+    }
+
+    
+    
+}
+
+
+
+
+
+@media (max-width:200px){
+    body{
+        background-color: purple;
+        color: white;
+
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .tab,.desk{
+        display: none;
+    }
+
+    
+
+
+}
+
+@media (min-width:201px) and (max-width:500px ){
+
+    body{
+        background-color: brown;
+        color: white;
+    }
+
+
+    .tab{
+        display: block;
+
+    }
+
+    .mobile,.desk{
+        display: none;
+    }
+}
+
+

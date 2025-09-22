@@ -1,0 +1,20 @@
+.border{
+/* border width, border_style, border_colour */
+
+    border: 2px solid blue;
+}
+
+.border-success{
+
+    border: 2px dotted green;
+}
+
+.border-danger{
+
+    border: 6px double red;
+    
+}
+
+.text{
+    color: rgb(24, 116, 85);
+}

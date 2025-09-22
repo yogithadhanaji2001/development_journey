@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+}
+
+
+.parent{
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.child1{
+
+    border: 2px solid white;
+    background-color: bisque;
+    height: 80px;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.child2{
+
+    border: 2px solid white;
+    background-color: bisque;
+    height: 80px;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
